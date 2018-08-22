@@ -1,0 +1,48 @@
+body{
+    background: cornflowerblue;
+}
+
+.fundo1{
+    background: cornflowerblue;
+}
+
+.fundo2{
+    background: lightblue;
+}
+
+.fundo3{
+    background: aliceblue;
+}
+
+.fundobranco{
+    background: white;
+}
+
+.bordaP{
+    border: 1px dotted black;
+}
+
+.tituloPrincipal{
+    color: #2b669a;
+}
+
+.tituloPrincipal:hover{color: #2aabd2}
+
+.borda1{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.fundoSelecionado{
+    background: #2aabd2;
+    color: #9acfea;
+}
+
+.fundoNSelecionado{
+    background: #9acfea;
+}
+
+.botaoNSelecionado{
+    width: 100%;
+    font-size: 140%;
+}

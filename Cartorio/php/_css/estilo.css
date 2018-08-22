@@ -1,0 +1,97 @@
+  body{
+	font-size: 30px;
+	background-color: gray;
+margin-left: 10%; margin-right: 10%;
+  }
+    h2{
+	color: white;
+	background-color: black;
+  }
+  form{
+	
+	font-size: 30px;
+	background-color: white;
+  }
+  input{
+	font-size: 30px;
+	background-color: rgb(200,200,200);
+  }
+  b{
+	font-size: 40px;
+  }
+  #botao{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-decoration:none; 
+  }
+  #erro{
+  color: red;
+  }
+  #pesquisar{
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  }
+  #selecionado{
+	border: 10px solid white;
+	background-color: black;
+	color: white;
+	padding: 0px;
+	text-decoration:none;
+  }
+  #pprincipal{
+  	padding-right:80pt;
+	padding-left: 80pt;	
+	font-size: 30px;
+	background-color: white;
+  }
+  img#img_cart{
+	margin-left: 2px; 
+	margin-right: 2px;
+  }
+  a#texto{
+  margin-left: 20px; 
+  margin-right: 20px;
+  }
+  div#label{
+  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(245,245,245);
+  }
+  div#formu{
+  	position: relative;
+	left: 90px;
+margin-right: 90px;
+	}
+  form#formul{
+  	height: 1000px;
+
+  }
+  div{
+	font-size: 30px;
+	background-color: white;
+  }
+	td{
+		border: 2px solid #606060;
+		border-spacing: 5px;
+		padding: 10px;
+		background-color: silver;
+		padding: 10px;
+	}
+	#titulo{
+	color: black;
+	font-size: 25pt;
+	}
+	form#formulario{
+	border: 2px solid #606060;
+	width: 430px;
+	height: 480px;
+	}
+	#reti{
+	border: 2px solid #606060;
+	width: 850px;
+	height: 120px;
+	}

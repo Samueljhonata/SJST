@@ -1,0 +1,503 @@
+
+body {
+    background-color: rgb(28, 13, 10);
+    font-family: "Berlin Sans FB"; /*Baskerville Old Face*/
+
+}
+a:hover{
+    color: rgb(90, 64, 47);
+}
+.fundo1{
+    background: rgb(226, 203, 136);
+}
+.fundo2{
+    background: rgb(171, 141, 81);
+}
+.fundo3{
+    background: rgb(90, 64, 47);
+}
+.fundo4{
+    background: rgb(48, 33, 30);
+}
+.borda1{
+    border: 1px solid rgb(48, 33, 30);
+    -webkit-border-radius: 10px;
+}
+.borda2{
+    border: 2px solid rgb(48, 33, 30);
+}
+.borda3{
+    border: 3px solid rgb(48, 33, 30);
+    -webkit-border-radius: 10px;
+}
+.semBorda{
+    border: none;
+}
+
+
+
+.padding10{
+    padding: 10px;
+}
+.espacamento10{
+    padding: 10px;
+}
+.divPrincipal{
+    width: 97%;
+    height: 500px;
+    border: 3px solid rgb(48, 33, 30);
+    -webkit-border-radius: 10px;
+}
+.autoAjusta{
+    overflow: auto;
+}
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(48, 33, 30);
+}
+
+div {
+
+    background-color: rgb(226, 203, 136);
+    color: rgb(48, 33, 30);
+}
+
+.menu {
+    padding: 5px;
+    font-size: 100%;
+    border: 1px solid #70651c;
+    width: 100%;
+    cursor: pointer;
+    -webkit-border-radius: 16px;
+}
+
+/*.botao_ouro_antigo {
+    -moz-box-shadow: inset 0px 1px 0px 0px #7a6c1c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #7a6c1c;
+    box-shadow: inset 0px 1px 0px 0px #7a6c1c;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #baad1a));
+    background: -moz-linear-gradient(top, #f0c911 5%, #baad1a 100%);
+    background: -webkit-linear-gradient(top, #f0c911 5%, #baad1a 100%);
+    background: -o-linear-gradient(top, #f0c911 5%, #baad1a 100%);
+    background: -ms-linear-gradient(top, #f0c911 5%, #baad1a 100%);
+    background: linear-gradient(to bottom, #f0c911 5%, #baad1a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#baad1a', GradientType=0);
+    background-color: #f0c911;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 2px solid #70651c;
+    display: inline-block;
+    cursor: pointer;
+    color: #7a5c11;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 41px;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #ded17c;
+    cursor: pointer;
+}
+*/
+.botao_ouro {
+    box-shadow: inset 0px 1px 0px 0px #7a6c1c;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#baad1a', GradientType=0);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    background-color: rgb(226, 203, 136);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(48, 33, 30);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(48, 33, 30);
+    /*font-family: Arial;*/
+    font-size: 130%;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(226, 203, 136);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+}
+
+.botao_ouro:hover {
+    color: rgb(90, 64, 47);
+    background: rgb(226, 203, 136);
+    text-decoration: none
+}
+
+.table_menu {
+    width: 160px;
+}
+
+/*.edificio{
+    height: 50px;
+    width: 100%;
+    font-size: 80%;
+    cursor:pointer;
+    border: 1px solid black;
+    background-color: rgb(200,200,200);
+}*/
+.sala {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(171, 141, 81);
+    border: 2px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sala:hover {
+    color: rgba(226, 203, 136, .7);
+    text-decoration: none
+}
+
+.menuCima {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(171, 141, 81);
+    border: 2px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.menuCima:hover {
+    color: rgb(226, 203, 136);
+    text-decoration: none
+}
+
+.manchete {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(171, 141, 81);
+    border: 2px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+}
+
+.manchete:hover {
+    color: rgb(90, 64, 47);
+    background: rgb(226, 203, 136);
+    text-decoration: none
+}
+
+.voltar_sala {
+    padding: 3px;
+    font-size: 100%;
+    background-color: white;
+    border: 1px solid #7a6c1c;
+    color: #7a6c1c;
+
+}
+
+.titulo {
+    background-color: rgb(90, 64, 47);
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(226, 203, 136);
+    text-decoration: none;
+}
+
+.titulo2 {
+    width: 99%;
+    background-color: rgb(90, 64, 47);
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+}
+
+.titulo3 {
+    width: 99%;
+    backgroundf-color: rgb(90, 64, 47);
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(226, 203, 136);
+    text-decoration: none;
+}
+
+.titulo4 {
+    background-color: rgb(90, 64, 47);
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+}
+
+.eventos {
+    padding: 2px;
+    font-size: 100%;
+    border: 1px solid rgb(48, 33, 30);
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: #7a5c11;
+}
+
+.noticia {
+    padding: 1px;
+    font-size: 100%;
+    border: 1px solid rgb(90, 64, 47);
+    width: 100%;
+    cursor: pointer;
+    color: rgb(48, 33, 30);
+    background-color: rgb(171, 141, 81);
+    text-decoration: none;
+
+}
+
+.acao_gabinete {
+    width: 100%;
+    padding: 0px;
+    background-color: #baad1a;
+    border: 1px solid #7a5c11;
+    color: #7a5c11;
+    text-decoration: none;
+}
+
+.menu_principal {
+    padding: 1px;
+    font-size: 100%;
+    border: 0px;
+    font-size: 200%;
+    cursor: pointer;
+    color: #7a5c11;
+
+    text-decoration: none;
+}
+
+a {
+    color: rgb(48, 33, 30);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgb(90, 64, 47);
+    text-decoration: underline;
+}
+
+.texto_imagem {
+    text-shadow: #7a5c11 1px -1px 2px, #7a5c11 -1px 1px 2px, #7a5c11 1px 1px 2px, #7a5c11 -1px -1px 2px;
+    padding: 50px;
+    color: #baad1a;
+    font-size: 20pt;
+}
+
+progress {
+    background-color: rgb(90, 64, 47);
+    border-radius: 5px;
+    -moz-box-shadow: 3px 3px 3px rgb(90, 64, 47);
+    -webkit-box-shadow: 3px 3px 3px rgb(90, 64, 47);
+    box-shadow: 3px 3px 3px rgb(48, 33, 30);
+    padding: 1px;
+    height: 20px;
+    background: rgb(90, 64, 47);
+    border: 1px solid rgb(48, 33, 30);
+
+}
+
+/* IE10 */
+progress {
+    background-color: rgb(171, 141, 81);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(90, 64, 47)));
+    color: rgb(171, 141, 81);
+}
+
+/* Firefox */
+progress::-moz-progress-bar {
+    background-color: rgb(171, 141, 81);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    color: rgb(171, 141, 81);
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+    background-color: rgb(171, 141, 81);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    color: rgb(171, 141, 81);
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before {
+    background-color: rgb(90, 64, 47);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    color: rgb(171, 141, 81);
+}
+
+input[type=submt] {
+    background-color: rgb(48, 33, 30);
+    border: 2px solid rgb(48, 33, 30);
+}
+
+input[type=text] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: #cccccc;
+    border: 1px solid rgb(48, 33, 30);
+    width: 150px;
+}
+
+input[type=number] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: #cccccc;
+    border: 1px solid rgb(48, 33, 30);
+    width: 150px;
+}
+
+input[type=password] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: #cccccc;
+    border: 1px solid rgb(48, 33, 30);
+    width: 150px;
+}
+
+textarea {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: #cccccc;
+    font-family: arial;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    border: 1px solid rgb(48, 33, 30);
+    width: 99%;
+    color: rgb(226, 203, 136);
+}
+
+input[type=submit] {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    padding: 5px 5px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+select {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -moz-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    -webkit-box-shadow: 1px 1px 2px rgb(48, 33, 30);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01, rgb(90, 64, 47)), color-stop(.8, rgb(226, 203, 136)));
+    border: 1px solid rgb(48, 33, 30);
+    color: rgb(48, 33, 30);
+    padding: 1px 1px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(226, 203, 136,0.5);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,00);
+    border: 1px solid rgb(48, 33, 30);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.submenu{
+    background-color: rgba(171, 141, 81,.8);
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 2px solid rgba(48, 33, 30,.3);
+    color: rgb(48, 33, 30);
+    display: inline-block;
+}
+
+.submenu:hover{
+    color: rgba(171, 141, 81,1);
+    background-color: rgba(226, 203, 136,0.5);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuSub{
+    border: 2px solid rgb(48, 33, 30);
+}
+
+.nav:hover{
+    background-color: rgba(171, 141, 81,.7);
+}
+.progress{
+    background: rgba(171, 141, 81,.3);
+}
+.progress-bar{
+    background: rgba(90, 64, 47, .9);
+}
+
+.invisivel{
+    display: none;
+}
+
+#smenu .submenu{
+    background: rgba(171, 141, 81,.3);
+}
+
+.informacao{
+    display: none;
+    position: absolute;
+    left: 90px;
+    width: 120px;
+    height: 30px;
+    background: rgba(171, 141, 81,.3);
+}
+
+.formacao-fora{
+    border: 2px solid rgb(48,33,30);
+    padding: 15px;
+
+    width: 80%;
+}
+.formacao-unidade{
+    border: 1px dashed rgb(48, 33, 30);
+    padding: 5px;
+    height: 100px;
+}
